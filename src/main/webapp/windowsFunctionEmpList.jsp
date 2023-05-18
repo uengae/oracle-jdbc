@@ -25,7 +25,7 @@
 	if(totalCntRs.next()){
 		totalCnt = totalCntRs.getInt("cnt");
 	}
-	
+	// 잔디체크
 	// 페이징 변수
 	int rowPerPage = 10;
 	int beginRow = (currentPage - 1) * rowPerPage + 1;
